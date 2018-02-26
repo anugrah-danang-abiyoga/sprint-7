@@ -37,7 +37,7 @@ console.log(isEven(75));
 console.log(isEven(-1));
 // → ??
 
-/* Been Counting */ 
+/* Task Three: Been Counting */ 
 
 function countBs(str) {
     var count = 0;
