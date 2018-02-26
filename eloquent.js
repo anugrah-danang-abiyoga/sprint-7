@@ -1,4 +1,4 @@
-/* Minimum */
+/* Task 1: Minimum */
 
 function min(num1, num2) {
     if (num1 > num2) {
@@ -16,7 +16,7 @@ console.log(min(0, -10));
 // → -10
 
 
-/* Recursion */
+/* Task Two: Recursion */
 
 function isEven(num) {
     if (num == 0) {
@@ -36,3 +36,29 @@ console.log(isEven(75));
 // → false
 console.log(isEven(-1));
 // → ??
+
+/* Been Counting */ 
+
+function countBs(str) {
+    var count = 0;
+    for (i = 0; i < word.length; i++)
+    if (word[i] === 'B') {
+        count++
+    }
+    return count
+}
+
+function countChar(word, letter) {
+    var count = 0;
+    for (i = 0; i < word.length; i++)
+    if (word [i] === letter) {
+        count++ 
+    } 
+    return count
+}
+
+
+console.log(countBs("BBC"));
+// → 2
+console.log(countChar("kakkerlak", "k"));
+// → 4
